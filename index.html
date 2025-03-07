@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
-    
-    <title>F is for Font</title> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F is for Font</title> 
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
- 
-    <h1>F is for Font</h1>
-
- 
+  <h1>F is for Font</h1>
+  <div class="input-container">
+    <!-- <label for="charInput">Enter a Letter (A-Z): </label> -->
     <input type="text" id="charInput" maxlength="1">
+  
+     <div class="slider-container">
+      <input type="range" id="type-slider" min="1" max="9" step="1" value="1">
+      <p id="typeface-name">Serif</p>
+  </div>
 
-    <button onclick="displayImage()" id="submitButton">Show Font</button>
-
-    <img id="displayedImage" src="images/" alt="Displayed Font Image">
-
-
-    <script src="script.js"></script> 
+    <button onclick="updateFontDisplay()" id="submitButton">Show Font</button>
+  </div>
+  <img id="displayedImage" src="images/" alt="Displayed Font Image">
+  <script src="script.js"></script>
 </body>
-</html>
+
+<div id="popup-card">
+    <h2>F is for Font</h2>
+    <p>This is a random font generator. <br> Type a letter and move the slider  <br> to fetch a font specimen.</p>
+    <button id="closePopup">Got it!</button>
+  </div>
+  
+  </html>
