@@ -91,7 +91,6 @@ const typefaces = {
     4: "Monospace",
     5: "Script",
     6: "Display",
-
 };
 
 typeSlider.addEventListener("input", function() {
