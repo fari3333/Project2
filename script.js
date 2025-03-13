@@ -1,5 +1,5 @@
 const fontImages = {};
-const imageFolder = "./IMAGES/";
+const imageFolder = "./images/";
 const invalidInputGif = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmtkdnJhMXY4Njd1cXR3MTM3MW1nMzZ1NXNhNHlhOHA0MWF2dDUzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13dRJkj5wgKq9q/giphy.gif";
 
 
@@ -91,6 +91,7 @@ const typefaces = {
     4: "Monospace",
     5: "Script",
     6: "Display",
+
 };
 
 typeSlider.addEventListener("input", function() {
