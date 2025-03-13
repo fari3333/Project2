@@ -9,24 +9,24 @@
 <body>
   <h1>F is for Font</h1>
   <div class="input-container">
-    <!-- <label for="charInput">Enter a Letter (A-Z): </label> -->
-    <input type="text" id="charInput" maxlength="1">
+    <input type="text" id="charInput" maxlength="1" placeholder="">
   
-     <div class="slider-container">
-      <input type="range" id="type-slider" min="1" max="9" step="1" value="1">
+    <div class="slider-container">
+      <input type="range" id="type-slider" min="1" max="6" step="1" value="1">
       <p id="typeface-name">Serif</p>
-  </div>
+    </div>
 
     <button onclick="updateFontDisplay()" id="submitButton">Show Font</button>
   </div>
-  <img id="displayedImage" src="images/" alt="Displayed Font Image">
-  <script src="script.js"></script>
-</body>
 
-<div id="popup-card">
-    <h2>F is for Font</h2>
-    <p>This is a random font generator. <br> Type a letter and move the slider  <br> to fetch a font specimen.</p>
+  <img id="displayedImage" src="" alt="Displayed Font Image">
+
+  <div id="popup-card">
+    <h2>Fetch a Font</h2>
+    <p>This is a random font generator. <br> Type a letter and move the slider <br> to fetch a font specimen.</p>
     <button id="closePopup">Got it!</button>
   </div>
-  
-  </html>
+
+  <script src="script.js"></script>
+</body>
+</html>
