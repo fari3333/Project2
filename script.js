@@ -84,7 +84,7 @@ submitButton.addEventListener('click', function() {
 const typeSlider = document.getElementById("type-slider");
 const typefaceName = document.getElementById("typeface-name");
 
-const typefaces = {
+const fontCategories = {
     1: "Serif",
     2: "Sans Serif",
     3: "Decorative",
