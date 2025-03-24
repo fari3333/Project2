@@ -96,6 +96,6 @@ const fontCategories = {
 
 typeSlider.addEventListener("input", function() {
     const value = this.value;
-    typefaceName.textContent = typefaces[value];
+    typefaceName.textContent = fontCategories[value];
     typefaceName.style.visibility = "visible";
 });
