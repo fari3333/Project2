@@ -53,11 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 200);
     });
 
-    closePopup.addEventListener("click", function () {
-        popup.style.opacity = "0";
-        setTimeout(() => popup.style.display = "none", 300);
-    });
-});
+
 document.getElementById("submitButton").addEventListener("click", function () {
     this.style.transform = "scale(0.9)";
     setTimeout(() => {
